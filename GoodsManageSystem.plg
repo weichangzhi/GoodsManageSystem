@@ -1,0 +1,138 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: GoodsManageSystem - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/GoodsManageSystem.res" /d "NDEBUG" /d "_AFXDLL" "F:\货物管理\GoodsManageSystem\GoodsManageSystem\GoodsManageSystem.rc"" 
+Creating temporary file "C:\Users\wells\AppData\Local\Temp\RSP752E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/GoodsManageSystem.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.cpp"
+"F:\货物管理\GoodsManageSystem\GoodsManageSystem\DIALOG_BUY.cpp"
+"F:\货物管理\GoodsManageSystem\GoodsManageSystem\DIALOG_CLIENT.cpp"
+"F:\货物管理\GoodsManageSystem\GoodsManageSystem\DIALOG_INPUT_CLIENT.cpp"
+"F:\货物管理\GoodsManageSystem\GoodsManageSystem\Dialog_InputBuy.cpp"
+"F:\货物管理\GoodsManageSystem\GoodsManageSystem\Dialog_InputSell.cpp"
+"F:\货物管理\GoodsManageSystem\GoodsManageSystem\Dialog_Login.cpp"
+"F:\货物管理\GoodsManageSystem\GoodsManageSystem\Dialog_Modify_Passwd.cpp"
+"F:\货物管理\GoodsManageSystem\GoodsManageSystem\Dialog_SELL.cpp"
+"F:\货物管理\GoodsManageSystem\GoodsManageSystem\GoodsManageSystem.cpp"
+"F:\货物管理\GoodsManageSystem\GoodsManageSystem\GoodsManageSystemDlg.cpp"
+"F:\货物管理\GoodsManageSystem\GoodsManageSystem\Preview.cpp"
+"F:\货物管理\GoodsManageSystem\GoodsManageSystem\SelTab.cpp"
+]
+Creating command line "cl.exe @C:\Users\wells\AppData\Local\Temp\RSP752E.tmp" 
+Creating temporary file "C:\Users\wells\AppData\Local\Temp\RSP752F.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/GoodsManageSystem.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\货物管理\GoodsManageSystem\GoodsManageSystem\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\wells\AppData\Local\Temp\RSP752F.tmp" 
+Creating temporary file "C:\Users\wells\AppData\Local\Temp\RSP7530.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/货物管理.pdb" /machine:I386 /out:"Release/货物管理.exe" 
+".\Release\AdoDB.obj"
+".\Release\DIALOG_BUY.obj"
+".\Release\DIALOG_CLIENT.obj"
+".\Release\DIALOG_INPUT_CLIENT.obj"
+".\Release\Dialog_InputBuy.obj"
+".\Release\Dialog_InputSell.obj"
+".\Release\Dialog_Login.obj"
+".\Release\Dialog_Modify_Passwd.obj"
+".\Release\Dialog_SELL.obj"
+".\Release\GoodsManageSystem.obj"
+".\Release\GoodsManageSystemDlg.obj"
+".\Release\Preview.obj"
+".\Release\SelTab.obj"
+".\Release\StdAfx.obj"
+".\Release\GoodsManageSystem.res"
+]
+Creating command line "link.exe @C:\Users\wells\AppData\Local\Temp\RSP7530.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+AdoDB.cpp
+f:\货物管理\goodsmanagesystem\goodsmanagesystem\release\msado15.tlh(407) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\ADODB.h(199) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\ADODB.h(201) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\ADODB.h(209) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.cpp(321) : warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.cpp(859) : warning C4244: '=' : conversion from '__int64' to 'unsigned long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.cpp(938) : warning C4244: '=' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.cpp(954) : warning C4244: '=' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.cpp(968) : warning C4244: '=' : conversion from '__int64' to 'long', possible loss of data
+DIALOG_BUY.cpp
+f:\货物管理\goodsmanagesystem\goodsmanagesystem\release\msado15.tlh(407) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(199) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(201) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(209) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+DIALOG_CLIENT.cpp
+f:\货物管理\goodsmanagesystem\goodsmanagesystem\release\msado15.tlh(407) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(199) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(201) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(209) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+DIALOG_INPUT_CLIENT.cpp
+f:\货物管理\goodsmanagesystem\goodsmanagesystem\release\msado15.tlh(407) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(199) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(201) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(209) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+Dialog_InputBuy.cpp
+f:\货物管理\goodsmanagesystem\goodsmanagesystem\release\msado15.tlh(407) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(199) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(201) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(209) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+Dialog_InputSell.cpp
+f:\货物管理\goodsmanagesystem\goodsmanagesystem\release\msado15.tlh(407) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(199) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(201) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(209) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+Dialog_Login.cpp
+f:\货物管理\goodsmanagesystem\goodsmanagesystem\release\msado15.tlh(407) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(199) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(201) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(209) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+Dialog_Modify_Passwd.cpp
+f:\货物管理\goodsmanagesystem\goodsmanagesystem\release\msado15.tlh(407) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(199) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(201) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(209) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+Dialog_SELL.cpp
+f:\货物管理\goodsmanagesystem\goodsmanagesystem\release\msado15.tlh(407) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(199) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(201) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(209) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+GoodsManageSystem.cpp
+f:\货物管理\goodsmanagesystem\goodsmanagesystem\release\msado15.tlh(407) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(199) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(201) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(209) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+GoodsManageSystemDlg.cpp
+f:\货物管理\goodsmanagesystem\goodsmanagesystem\release\msado15.tlh(407) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(199) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(201) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(209) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+Preview.cpp
+f:\货物管理\goodsmanagesystem\goodsmanagesystem\release\msado15.tlh(407) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(199) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(201) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(209) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+SelTab.cpp
+f:\货物管理\goodsmanagesystem\goodsmanagesystem\release\msado15.tlh(407) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(199) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(201) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+F:\货物管理\GoodsManageSystem\GoodsManageSystem\AdoDB.h(209) : warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+货物管理.exe - 0 error(s), 57 warning(s)
+</pre>
+</body>
+</html>
